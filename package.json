@@ -1,0 +1,17 @@
+{
+  "name": "lesson-13-2023-08-14",
+  "version": "1.0.0",
+  "description": "OBS! We forgot to declare \"mousedown\" as a variable to be used, it still works - sorta - but if you declare it\r as variable and set its value to false by default, the scrub function should work better.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {}
+}

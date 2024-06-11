@@ -1,0 +1,53 @@
+#player {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 10;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #111;
+}
+
+#player > .player-controls {
+    display: flex;
+    flex: 1;
+    flex-basis: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+#player > .player-controls > .player-play-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-timeline {
+    display: flex;
+    flex-basis: 80%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.player-progress {
+    display: flex;
+    position: relative;
+    height: 6px;
+    background: #999;
+    border-radius: 25px;
+    margin: 0 5px;
+    flex-basis: 100%;
+    overflow: hidden;
+}
+
+.player-progress-filled {
+    height: 6px;
+    border-radius: 25px;
+    flex: 0;
+    flex-basis: 0%;
+    background: #1DB954;
+}
